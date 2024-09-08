@@ -11,6 +11,7 @@
 		FC778F552C8DDD3C00781178 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC778F542C8DDD3C00781178 /* ContentView.swift */; };
 		FC778F572C8DDD3F00781178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC778F562C8DDD3F00781178 /* Assets.xcassets */; };
 		FC778F5A2C8DDD3F00781178 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC778F592C8DDD3F00781178 /* Preview Assets.xcassets */; };
+		FC778F612C8DE5D000781178 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC778F602C8DE5D000781178 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		FC778F542C8DDD3C00781178 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FC778F562C8DDD3F00781178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC778F592C8DDD3F00781178 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FC778F602C8DE5D000781178 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		FC778F622C8DE89C00781178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +54,10 @@
 		FC778F512C8DDD3C00781178 /* MapkitPractice */ = {
 			isa = PBXGroup;
 			children = (
+				FC778F622C8DE89C00781178 /* Info.plist */,
 				FC778F522C8DDD3C00781178 /* MapkitPracticeApp.swift */,
 				FC778F542C8DDD3C00781178 /* ContentView.swift */,
+				FC778F602C8DE5D000781178 /* LocationManager.swift */,
 				FC778F562C8DDD3F00781178 /* Assets.xcassets */,
 				FC778F582C8DDD3F00781178 /* Preview Content */,
 			);
@@ -139,6 +144,7 @@
 			files = (
 				FC778F552C8DDD3C00781178 /* ContentView.swift in Sources */,
 				FC778F532C8DDD3C00781178 /* MapkitPracticeApp.swift in Sources */,
+				FC778F612C8DE5D000781178 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +281,7 @@
 				DEVELOPMENT_TEAM = P97LMAHA9N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapkitPractice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +311,7 @@
 				DEVELOPMENT_TEAM = P97LMAHA9N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapkitPractice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
